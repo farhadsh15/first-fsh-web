@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.header ul li {
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+.header ul li:hover {
+    color: rgb(221, 221, 221);
+}
+
+.header img {
+    width: 70px;
+}
