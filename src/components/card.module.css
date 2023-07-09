@@ -20,3 +20,35 @@
     border-radius: 5px;
     color: #fff;
 }
+
+.count {
+    border-top: 2px solid rgb(115, 115, 115) ;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.count img {
+    width: 30px;
+}
+.countNum {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 15px;
+    background-color: rgb(37, 28, 175);
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+
+.deActiv {
+    opacity: 0.3;
+}
+/* .somePrice {
+    background-color: rgb(10, 145, 46);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 35px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+} */
