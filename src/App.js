@@ -4,6 +4,7 @@ import "./index.css"
 
 import Navbar from './components/Navbar';
 import Baner from './components/Baner';
+import Cards from './components/Cards';
 
 class App extends Component {
     render() {
@@ -11,6 +12,7 @@ class App extends Component {
             <div>
                 <Navbar />
                 <Baner />
+                <Cards />
             </div>
         );
     }
