@@ -10,7 +10,7 @@ class Card extends Component {
         super();
         this.state = {
             count: 0,
-            // somePrice: 0,
+            SUMPrice: 0,
         }
     }
     Down = () => {
@@ -18,16 +18,25 @@ class Card extends Component {
             this.setState(prevState => ({
             count : prevState.count - 1,
             }))
+            this.checkCost(this.state.count-1);
         }       
     }
     Up = () => {
         this.setState(prevState => ({
             count : prevState.count + 1,
         }))
+        this.checkCost(this.state.count+1);
+    }
+    checkCost = item => {
+        let oneCost = Number(this.props.cost.split(" ")[0]);
+        console.log(oneCost*item)
+        this.setState({
+            SUMPrice: oneCost*item,
+        })
     }
     render() {
         const {image, name, cost} = this.props;
-        const {count} = this.state
+        const {count, SUMPrice} = this.state
         return (
             <div className={style.card}>
                 <img src={image} alt='phonePhoto'/>
@@ -37,7 +46,7 @@ class Card extends Component {
                     <img src={Down} alt='Down' className={count ? "" : style.deActiv} onClick={this.Down} />
                     <span className={style.countNum}>{count}</span>
                     <img src={Up} alt='Up' onClick={this.Up} />
-                    {/* <span className={style.somePrice}>{somePrice}</span> */}
+                    <span className={style.SUMPrice}>{`${SUMPrice} $`}</span>
                 </div>
             </div>
         );
