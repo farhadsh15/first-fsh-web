@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 import style from "./Cards.module.css";
-import Card from './Card';
+import Card from '../Card';
 
-import IphoneX from "../images/iphonex.jpg"
-import Iphone11 from "../images/iphone11.jpg"
-import Iphone12 from "../images/iphone12.jpg"
-import S21 from "../images/S21.jpg"
+import IphoneX from "../../images/iphonex.jpg"
+import Iphone11 from "../../images/iphone11.jpg"
+import Iphone12 from "../../images/iphone12.jpg"
+import S21 from "../../images/S21.jpg"
 
 class cards extends Component {
     render() {

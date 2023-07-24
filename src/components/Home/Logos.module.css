@@ -1,0 +1,18 @@
+.Logos {
+    text-align: center;
+    margin: 60px;
+}
+.Logos h3 {
+    color: #505050;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Logos div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.Logos img {
+    width: 300px;
+}

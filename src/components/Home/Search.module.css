@@ -1,0 +1,24 @@
+.Search {
+    background-color: rgb(86, 150, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 120px;
+}
+
+.Search p {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+}
+.Search input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.Search input::placeholder {
+    font-size: 1rem;
+}

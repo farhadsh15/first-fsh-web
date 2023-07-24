@@ -3,16 +3,16 @@ import React, { Component } from 'react';
 import "./index.css"
 
 import Navbar from './components/Navbar';
-import Baner from './components/Baner';
-import Cards from './components/Cards';
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 class App extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <Baner />
-                <Cards />
+                <Home />
+                <Footer />
             </div>
         );
     }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import style from "./Baner.module.css";
-import banerPhoto from "../images/Baner.jpg";
+import banerPhoto from "../../images/Baner.jpg";
 
 const Baner = () => {
     return (
